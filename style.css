@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1:hover {
+    background-color: rgb(0, 156, 13);
+}
+
+
+.head,
+.left-arm,
+.torsol,
+.right-arm,
+.left-leg,
+.right-leg,
+.left-antenna,
+.right-antenna {
+    background-color: rgb(3, 173, 3);
+}
+
+
+.head {
+    width: 200px;
+    height: 150px;
+    border-radius: 200px 200px 0 0;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.head:hover{
+    width: 300px;
+    rotate: 360deg;
+    transition: all 1s steps(30) 0.5s;
+}
+
+.left-antenna {
+    position: relative;
+    padding: 4px;
+    width: 30px;
+    border-radius: 20px;
+    top: 0.6em;
+    left: 0.8em;
+    transform: rotate(60deg);
+}
+
+.right-antenna {
+    position: relative;
+    padding: 4px;
+    width: 30px;
+    border-radius: 20px;
+    top: 0.5em;
+    left: -0.3em;
+    transform: rotate(120deg);
+    float: right;
+}
+
+.eyes {
+    display: flex;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+
+}
+
+
+.left-eye,
+.right-eye {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 60px;
+}
+
+.left-eye {
+    margin-right: 20px;
+}
+
+.left-eye:hover,
+.right-eye:hover {
+    background-color: red;
+}
+
+.right-eye {
+    margin-left: 30px;
+}
+
+
+.upper-body{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.left-arm {
+    width: 40px;
+    height: 125px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.left-arm:hover {
+    transform: rotate(20deg);
+}
+
+.torsol {
+    width: 200px;
+    height: 180px;
+    border-radius: 0 0 50px 50px;
+}
+.right-arm {
+    width: 40px;
+    height: 125px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.right-arm:hover {
+    transform: rotate(90deg);
+}
+
+.lower-body {
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    display: flex;
+}
+
+.left-leg,
+.right-leg {
+    width: 40px;
+    height: 120px;
+    border-radius: 0 0 20px 20px;
+}
+
+.left-leg {
+    margin-left: 45px;
+}
+
+.left-leg:hover {
+    transform: rotate(20deg);
+}
+
+.right-leg {
+    margin-left: 30px;
+}
+
+.right-leg:hover {
+    transform: rotate(-25deg);
+}
+
